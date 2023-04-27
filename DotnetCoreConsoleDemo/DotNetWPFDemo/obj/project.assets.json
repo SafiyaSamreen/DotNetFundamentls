@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "DotNetStandardLibDemo/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DotNetStandardLibDemo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DotNetStandardLibDemo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetStandardLibDemo/1.0.0": {
+      "type": "project",
+      "path": "../../DotnetStandardLibraryDemo/DotNetStandardLibDemo/DotNetStandardLibDemo.csproj",
+      "msbuildProject": "../../DotnetStandardLibraryDemo/DotNetStandardLibDemo/DotNetStandardLibDemo.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "DotNetStandardLibDemo >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\UX507919\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\UX507919\\source\\repos\\DotnetCoreConsoleDemo\\DotNetWPFDemo\\DotNetWPFDemo.csproj",
+      "projectName": "DotNetWPFDemo",
+      "projectPath": "C:\\Users\\UX507919\\source\\repos\\DotnetCoreConsoleDemo\\DotNetWPFDemo\\DotNetWPFDemo.csproj",
+      "packagesPath": "C:\\Users\\UX507919\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\UX507919\\source\\repos\\DotnetCoreConsoleDemo\\DotNetWPFDemo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\UX507919\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\WorkPlace\\NuGet": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://bams-aws.refinitiv.com/artifactory/api/nuget/default.nuget.cloud": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "C:\\Users\\UX507919\\source\\repos\\DotnetStandardLibraryDemo\\DotNetStandardLibDemo\\DotNetStandardLibDemo.csproj": {
+              "projectPath": "C:\\Users\\UX507919\\source\\repos\\DotnetStandardLibraryDemo\\DotNetStandardLibDemo\\DotNetStandardLibDemo.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

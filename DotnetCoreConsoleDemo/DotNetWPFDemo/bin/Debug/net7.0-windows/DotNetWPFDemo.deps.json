@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DotNetWPFDemo/1.0.0": {
+        "dependencies": {
+          "DotNetStandardLibDemo": "1.0.0"
+        },
+        "runtime": {
+          "DotNetWPFDemo.dll": {}
+        }
+      },
+      "DotNetStandardLibDemo/1.0.0": {
+        "runtime": {
+          "DotNetStandardLibDemo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetWPFDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetStandardLibDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
